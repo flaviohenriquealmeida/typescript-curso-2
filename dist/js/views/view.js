@@ -6,7 +6,4 @@ export class View {
         const template = this.template(model);
         this.elemento.innerHTML = template;
     }
-    template(model) {
-        throw Error('Classe filha precisa implementar o método template');
-    }
 }
